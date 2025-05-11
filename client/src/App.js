@@ -9,7 +9,7 @@ const App = () => {
   //data will be the string we send from our server
   function apiCall() {
 
-    axios.get('http://localhost:8080').then((response) => {
+    axios.get('http://localhost:8080/datetime').then((response) => {
       
       setMessage(response.data);
 
